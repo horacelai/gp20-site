@@ -12,7 +12,7 @@ export default function Home() {
 
       <main>
         <Nav />
-        <div className="landing">
+        <div className="landing noise">
           <div className="landing-img">
             <img src={`${assetPath}background.jpg`} alt="GP20"/>
           </div>
@@ -28,8 +28,14 @@ export default function Home() {
         </div>
       </main>
 
+      <section className="landing-quote noise">
+        <div>
+        「如果有個女仔走嚟同妳講佢鍾意妳呢？」
+        </div>
+      </section>
+
       <footer>
-        
+        香港科技大學學生會劇社
       </footer>
     </div>
   )

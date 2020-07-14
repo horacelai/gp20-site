@@ -34,7 +34,7 @@ export default function Nav() {
     const trailRef = useRef();
     const trail = useTrail(navs.length, {
         ref: trailRef,
-        config: { mass: 10, tension: 350, friction: 100 },
+        config: { mass: 15, tension: 350, friction: 100 },
         opacity: !opened ? 0 : 1,
         transform: `translateY(${!opened ? -10 : 0}px)`,
         from: { opacity: 0, transform: 'translateY(-10px)' },
